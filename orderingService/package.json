@@ -1,0 +1,38 @@
+{
+  "name": "node-kafka-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murnax/node-kafka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murnax/node-kafka/issues"
+  },
+  "homepage": "https://github.com/murnax/node-kafka#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "kafka-node": "^2.6.1",
+    "module-alias": "^2.1.0",
+    "mongoose": "^5.2.5",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/kafka-node": "^2.0.6",
+    "@types/mongodb": "^3.1.2",
+    "@types/mongoose": "^5.2.2",
+    "@types/uuid": "^3.4.3"
+  },
+  "_moduleAliases": {
+    "@root": "./dist",
+    "@repository": "./dist/infrastructure/repository"
+  }
+}
